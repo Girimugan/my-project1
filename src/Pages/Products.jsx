@@ -1,6 +1,6 @@
 
 const Products = () => {
-  return <h2>🛒 Products Page</h2>;
+  return <h2>* Products Page *</h2>;
 };
 
 export default Products;
