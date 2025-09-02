@@ -8,6 +8,8 @@ const sampleProducts = [
   { id: 1, name: "Paracetamol", price: 50 },
   { id: 2, name: "Cough Syrup", price: 120 },
   { id: 3, name: "Vitamin C Tablets", price: 200 },
+  { id: 4, name: "Pain Relief Balm", price: 80 },
+
 ];
 
 export default function Products() {
