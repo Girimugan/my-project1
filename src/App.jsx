@@ -8,6 +8,7 @@ import CartPage from "./pages/CartPage";
 
 
 import "./App.css";
+import ProductDetails from "./ProductsDetails";
 
 
 
@@ -20,7 +21,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Products />} />
+          <Route path="/" element={<ProductDetails />} />
           <Route path="/cart" element={<CartPage />} />
         </Routes>
       </div>
