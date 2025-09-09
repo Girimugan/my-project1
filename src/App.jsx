@@ -2,30 +2,33 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
-import Navbar from "./components/Navbar";
-import Products from "./pages/Products";
-import CartPage from "./pages/CartPage";
+// import Navbar from "./components/Navbar";
+// import Products from "./pages/Products";
+// import CartPage from "./pages/CartPage";
 
 
 import "./App.css";
-import ProductDetails from "./ProductsDetails";
+// import ProductDetails from "./ProductsDetails";
+import Users from "./Users";  
+
 
 
 
 function App() {
 
-
+         
   return (
 
     <>
-      <div>
+      {/* <div>
         <Navbar />
         <Routes>
           <Route path="/" element={<ProductDetails />} />
+          <Route path="/" element={<Products />} />
           <Route path="/cart" element={<CartPage />} />
         </Routes>
-      </div>
-        
+      </div> */}
+        <Users />
     </>
   );
 }

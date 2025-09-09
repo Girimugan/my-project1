@@ -12,7 +12,7 @@ let id=3
 
   if (!product) return <p>Loading...</p>;
 
-  return (
+  return ( 
     <div>
       <h2>{product.name}</h2>
       <p>Price: ₹{product.price}</p>
